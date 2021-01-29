@@ -1,0 +1,75 @@
+body{
+    background: url('../images/background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link{
+    padding: 10px 30px;
+    background-color: #F0E68C;
+    margin: 15px;
+    border-radius: 10px;
+    color: #000;
+    text-decoration: none;
+}
+h1{
+    color: white;
+    padding: 180px;
+    text-align: right;
+
+}
+h2{
+    background-color: #F0E68C;
+    font-size: large;
+
+
+}
+
+.filter{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+h2{
+    background-color: #F0E68C;
+    font-size: 20px !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    padding: 0;
+    text-align: center;
+}
+img{
+    margin: 70px;
+}
+
+.text_container{
+    display: flex;
+    color: #fff;
+}
+.aboutmeText{
+    font-size: 24px;
+}
+.d-block{
+    margin: auto;
+    margin-top: 40px;
+}
+.carousel_text{
+    color: #fff;
+    font-size: 20px !important;
+    text-align: center;
+}
